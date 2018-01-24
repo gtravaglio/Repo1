@@ -2,6 +2,9 @@ u: gtravaglio
 p: gtravaglio74
 git --version
 git init
+git config --global http.proxy http://g.travaglio:Kris2016?@10.10.11.12:8080
+git config --global user.email "g.travaglio@accenture.com"
+git config --global user.name "gtravaglio"
 git status
 git add text1.txt
 git commit -m "added text1.txt"
@@ -9,4 +12,5 @@ git add .
 git commit -m "added index.html | modified text1.txt"
 git remote add origin https://github.com/gtravaglio/Repo1.git
 git push -u origin master
-git config --global http.proxy http://g.travaglio:Kris2016?@10.10.11.12:8080
+git log
+git --help
